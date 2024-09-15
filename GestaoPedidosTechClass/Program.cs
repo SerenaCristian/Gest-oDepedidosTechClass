@@ -4,16 +4,16 @@ namespace GestaoPedidosTechClass
 {
     class Program
     {
-        // Variável estática para auto-incrementar o ID do pedido
+        
         private static int proximoIdPedido = 1;
 
         static void Main(string[] args)
         {
-            // Solicitar o nome do cliente
+        
             Console.WriteLine("Por favor, digite seu nome:");
             string nomeCliente = Console.ReadLine();
 
-            Cliente cliente = new Cliente(nomeCliente, 10); // Cliente com nome fornecido
+            Cliente cliente = new Cliente(nomeCliente, 10); 
 
             bool continuar = true;
 
